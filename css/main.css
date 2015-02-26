@@ -1,0 +1,197 @@
+/* Element Styles */
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	color: #333333;
+	line-height: 1.8;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+}
+
+h1 { font-size: 48px; }
+h2 { font-size: 32px; }
+h3 { font-size: 24px; }
+
+/* Logo */
+#logo {
+	display: inline-block;
+	text-indent: -9999px;
+	width: 146px;
+	height: 80px;
+	background-image: url('../img/NSYSWBLogoNoText.png'); /* TODO get a png of the band logo. */
+	background-image: url('../img/NSYSWBLogoNoText.svg'), none; /* I'm probably deluded when I think we might have an svg somewhere. */
+	background-size: 146px 80px;
+}
+
+/*section {
+margin-bottom: 40px;
+}
+*/
+a {
+	color: #1CDBEF;
+	text-decoration: none;
+	transition: text-shadow 0.2s;
+}
+
+a:hover {
+	text-shadow: 0 0 1px #00B3FF;
+}
+
+/* Object Styles */
+.inline-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.inline-list > li {
+	margin: 0;
+	padding: 0 60px 0 0;
+	display: inline-block;
+}
+
+/* Page Layout */
+.wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+.page-header {
+	/*background: #333333;*/
+}
+
+.page-header-titles {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.page-navigation {
+	padding: 10px 0;
+	background: #333333;
+	box-shadow: 0 2px 1px gray;
+	font-family: 'Raleway', sans-serif;
+}
+
+.page-navigation > ul {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.page-icon {
+	display: inline-block;
+	background: #333333;
+	border-radius: 5px;
+	height: 100px;
+	padding: 15px;
+}
+
+.page-title {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 30px 0 0;
+	padding: 0;
+	font-size: 50px;
+	font-family: 'Kaushan Script';
+	font-weight: lighter;
+}
+
+.page-subtitle {
+	display: inline-block;
+	vertical-align: text-top;
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+}
+
+.page-content {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 0 58px 0;
+}
+
+.page-footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 15px 0;
+	background: #333333;
+}
+
+.page-footer-content {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.about {
+	width: 520px;
+	margin-right: 55px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.performances {
+	width: 520px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Module Styles */
+/* Page Section */
+.section-title {
+	margin: 20px 0 10px 0;
+}
+
+/* Sponsor box */
+.sponsors {
+	background: #333333;
+	height: 220px;
+	width: 900px;
+	border-radius: 5px;
+}
+
+.sponsors-title {
+	color: #EEEEEE;
+	padding-left: 15px;
+}
+
+/* Page Nav */
+.page-navigation {
+	font-size: 1.2em;
+}
+
+/* News Post */
+.news-more {
+	display: block;
+	padding-bottom: 30px;
+}
+
+.news-post {
+	margin: 10px 0 40px 0;
+}
+
+.news-title {
+	margin: 20px 0 10px 0;
+}
+
+.news-author {
+	display: inline-block;
+	margin: 0;
+	padding-right: 20px;
+}
+
+/* Pagination */
+.pagination {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.pagination a, span {
+	padding: 0 50px;
+}

@@ -1,0 +1,26 @@
+---
+layout: default
+title: NSYSWB - Home
+---
+
+<section class="about">
+	<h2 class="section-title about-title"><a name="about" href="#about">About The Band</a></h2>
+	<p>
+		North Shore Youth Symphonic Wind Band is a multi-award winning concert band based on Auckland's North Shore. The band's primary focus is on providing an environment in which young brass, woodwind and percussion musicians can learn and excel at fun and challenging music, alongside experienced conductors and talented fellow members. This is done in a social environment in which members are able to meet and network with other musicians.
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+</section>
+
+<section class="performances">
+	<h2 class="section-title join-title"><a name="join" href="#join">Upcoming Performances</a></h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</section>
+
+<section class="news">
+	<h2 class="section-title news-title"><a name="news" href="#news">Latest News</a></h2>
+	{% assign article = site.posts.first %}
+	{% include article.html %}
+
+	<a class="news-more" href="/news">More news <i class="icon-arrow-right"></i></a>
+</section>

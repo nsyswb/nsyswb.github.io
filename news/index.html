@@ -1,0 +1,12 @@
+---
+layout: default
+title: NSYSWB - News
+---
+
+<section class="posts">
+	{% for article in paginator.posts %}
+		{% include article.html %}
+	{% endfor %}
+
+	{% include paginator.html %}
+</section>
